@@ -2,6 +2,8 @@ import { StyleSheet, Text, View,SafeAreaView,Image } from 'react-native'
 import tw from 'tailwind-react-native-classnames';
 
 import React from 'react'
+import NavOption from '../component/NavOption';
+
 
 const Homescreen = () => {
    
@@ -18,6 +20,7 @@ const Homescreen = () => {
             uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/640px-Uber_logo_2018.svg.png",
         }}
         />
+        <NavOption />
       </View>
 
     </SafeAreaView>
