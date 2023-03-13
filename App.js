@@ -4,8 +4,10 @@ import { Provider } from 'react-redux';
 import Homescreen from './screens/Homescreen';
 import { store } from './Store';
 
+
 export default function App() {
   return (
+    
     <Provider store={store}>
       <Homescreen />
     </Provider>
